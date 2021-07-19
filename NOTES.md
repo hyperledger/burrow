@@ -1,3 +1,3 @@
 ### Fixed
-- [Build] Add 0.34.1 changes!
+- [JS] Fix spelling of 'contractName' in solts, add contract name to contract object.
 

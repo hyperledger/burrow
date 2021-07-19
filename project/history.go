@@ -47,7 +47,11 @@ func FullVersion() string {
 // To cut a new release add a release to the front of this slice then run the
 // release tagging script: ./scripts/tag_release.sh
 var History relic.ImmutableHistory = relic.NewHistory("Hyperledger Burrow", "https://github.com/hyperledger/burrow").
-	MustDeclareReleases("0.34.2 - 2021-07-09",
+	MustDeclareReleases("0.34.3 - 2021-07-19",
+		`### Fixed
+- [JS] Fix spelling of 'contractName' in solts, add contract name to contract object.
+`,
+		"0.34.2 - 2021-07-09",
 		`### Fixed
 - [Build] Add 0.34.1 changes!
 `,
